@@ -1,0 +1,16 @@
+{
+  "id": 1234,
+  "category": {
+    "id": 30,
+    "name": "nmopq"
+  },
+  "name": "Birds",
+  "photoUrls": ["https://www.omRaut.com"],
+  "tags": [
+    {
+      "id": 30,
+      "name": "nmopq"
+    }
+  ],
+  "status": "available"
+}
