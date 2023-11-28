@@ -1,10 +1,9 @@
 Feature: API testing
   API testing using REST assured library and cucumber framework
-  @POST
-  Scenario: Test POST call
-    Given User has a base URI to test "https://jsonplaceholder.typicode.com"
-    When User send a post request "/posts"
-    Then User validate the status code 201
-    And User validate the response time les than 3000 ms
-    And User validate the response header content length and content type
-    And User validate the response json values
+  @DogAPI
+  Scenario: ABSA-Task 1_API tests
+    Given Base URI to test "https://dog.ceo/api"
+    When Perform an API request to produce a list of all dog breeds "/breeds/list/all"
+    Then Verify retriever breed is within the list of all dog breeds "/breeds/list/all"
+    And Perform an API request to produce a list of sub-breeds for retriever "/breed/retriever/list"
+    And Perform an API request to produce a random image link for the sub-breed golden "/breed/retriever/golden/images/random"

@@ -10,12 +10,13 @@ import org.testng.annotations.DataProvider;
         plugin = {
                 "pretty",
                 "html:target/cucumber-reports.html",
-                "json:target/cucumber.json"
+                "json:target/cucumber.json",
+                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
         },
         monochrome = true,
         publish = true,
         dryRun = false, /*true = to check the mapping of steps*/
-        tags = "@POST"
+        tags = "@DogAPI"
 )
 
 public class testRunner extends AbstractTestNGCucumberTests {
