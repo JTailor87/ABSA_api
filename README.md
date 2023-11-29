@@ -76,3 +76,6 @@ Open source API Testing Automation Framework.
 - Run below command.
    ```shell
   allure serve target/allure-results
+- Cucumber html report will be found here `target/cucumber-reports.html`
+- Extent report wil be found here `target/SparkReport 29-Nov-23 10-26-28/Reports/Spark.html`
+  <span style="color:red; font-weight:bold">NOTE:</span> <span style="color:yellow">The date in the path will change. Always do mvn clean and then run the tests.</span>

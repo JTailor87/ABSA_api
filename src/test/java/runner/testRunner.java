@@ -11,7 +11,9 @@ import org.testng.annotations.DataProvider;
                 "pretty",
                 "html:target/cucumber-reports.html",
                 "json:target/cucumber.json",
-                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
+                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+                "timeline:target/test-output-thread/"
         },
         monochrome = true,
         publish = true,
