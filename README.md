@@ -27,17 +27,20 @@ Open source API Testing Automation Framework.
 5. **Allure Reporting:**
    - Generates detailed and visually appealing Allure reports for better test insights.
 
-6. **Page Object Model (POM):**
+6. **Extent Reporting:**
+   - Generates detailed and visually appealing Extent html emailable reports for better test insights.
+
+7. **Page Object Model (POM):**
    - Implements the Page Object Model pattern for improved code organization and maintainability.
 
-7. **Parameterization and Configuration:**
+8. **Parameterization and Configuration:**
    - Easily parameterize tests and configure the framework to suit your needs.
 
-8. **Parallel Execution:**
+9. **Parallel Execution:**
    - Run tests in parallel to reduce execution time and increase efficiency.
    
-9. **Easy Setup and Configuration:**
-   - Quick and simple setup with clear configuration options.
+10. **Easy Setup and Configuration:**
+    - Quick and simple setup with clear configuration options.
 
 
 ## Prerequisites
