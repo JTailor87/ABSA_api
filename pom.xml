@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-  <artifactId>RESTAssured</artifactId>
+  <artifactId>ABSA_API</artifactId>
   <version>1.0</version>
 
-  <name>RESTAssured</name>
+  <name>ABSAapi_RESTAssured</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
